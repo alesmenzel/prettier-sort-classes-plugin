@@ -46,7 +46,7 @@ export default {
               const y = CLASS_LIST_MAP.get(b) ?? Number.POSITIVE_INFINITY
               const res = x - y
               if (res === 0 || Number.isNaN(res)) {
-                return a.localeCompare(b)
+                return a.localeCompare(b, 'en')
               }
               return res
             })
