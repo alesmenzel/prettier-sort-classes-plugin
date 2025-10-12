@@ -10,6 +10,10 @@
     "pretest": "npm run lint",
     "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alesmenzel/prettier-sort-classes-plugin"
+  },
   "keywords": [
     "prettier",
     "plugin",
